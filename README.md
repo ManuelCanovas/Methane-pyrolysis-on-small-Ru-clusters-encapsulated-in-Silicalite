@@ -1,2 +1,7 @@
-# Methane-pyrolysis-on-small-Ru-clusters-encapsulated-in-Silicalite
-DFT simulations were carried out using VASP with PBE-D3 for the methane pyrolsis for a single atom of Ruthenium and for small Ru clusters encapsulated inside a Silicalite
+Hi,
+
+In this repository you will find all the atomic position (CONTCAR), energies (OSZICAR) and deatiled outputs of the simulations in OUTCAR and vasprun.xml for all the reactions studied for the methane pyrolsis on single-atom and small clusters of Ruthenium encapsulated on Silicalite.
+
+Each folder contains a reaction (R1, R2, etc.) with the Reactant, Product and TS. Adsoption and desorption reactions do not include TS.
+
+Sincerely, Manuel
