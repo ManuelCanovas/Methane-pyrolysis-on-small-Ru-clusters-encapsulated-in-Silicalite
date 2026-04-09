@@ -1,0 +1,12 @@
+# 1. Ignorar todo en el directorio actual y subdirectorios
+*
+
+# 2. Permitir que Git entre en las carpetas (sin esto no verá los archivos dentro)
+!*/
+
+# 3. Permitir específicamente los archivos deseados en cualquier nivel
+!**/CONTCAR
+!**/OSZICAR
+
+# 4. (Opcional) Permitir el propio .gitignore
+!.gitignore
