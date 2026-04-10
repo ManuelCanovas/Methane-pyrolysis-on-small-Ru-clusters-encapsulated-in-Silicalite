@@ -5,4 +5,6 @@ Each folder contains a reaction (R1, R2, etc.) with the Reactant, Product and TS
 
 In addition, in the zip file also the OUTCAR and vasprun.xml for each reaction are included.
 
+Finally, we also included the Microkinetic Modelling input files separated by temperature and number of Ru atoms per cluster.
+
 Sincerely, Manuel
