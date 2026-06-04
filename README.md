@@ -1,10 +1,18 @@
-Hi,
+# Supporting Data for: Methane Pyrolysis on Small Ru Clusters Encapsulated in Silicalite
 
-In this repository you will find all the atomic position (CONTCAR) and energies (OSZICAR) for all the reactions studied for the methane pyrolsis on single-atom and small clusters of Ruthenium encapsulated on Silicalite.
-Each folder contains a reaction (R1, R2, etc.) with the Reactant, Product and TS, for each Ru cluster, from 1 (single-atom) to 2,3 and 4 (small clusters).
+This repository contains the supplementary computational data (DFT calculations and Microkinetic Modeling) associated with the following publication:
 
-In addition, in the zip file also the OUTCAR and vasprun.xml for each reaction are included.
+**Title:** Methane Pyrolysis on Small Ru Clusters Encapsulated in Silicalite: DFT and Microkinetic Modeling Study
+**Journal:** ACS Catalysis
+**DOI:** [https://doi.org/10.1021/acscatal.6c01725](https://doi.org/10.1021/acscatal.6c01725)
 
-Finally, we also included the Microkinetic Modelling input files separated by temperature and number of Ru atoms per cluster.
+---
 
-Sincerely, Manuel
+## Repository Contents
+
+The data is organized into three main directories:
+
+- `/CONTCARS`: Contains the optimized atomic structures for the DFT calculations. These files are ready to be used with VASP or visualization software (e.g., VESTA, OVITO).
+- `/OSZICARS`: Contains the convergence data for the electronic self-consistent field (SCF) calculations, useful for checking calculation energies.
+- `/MKM_data`: Includes the input parameters for the Microkinetic Modeling simulations performed in the study.
+
