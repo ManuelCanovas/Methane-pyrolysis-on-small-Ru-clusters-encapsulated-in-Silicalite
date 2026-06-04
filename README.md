@@ -10,9 +10,8 @@ This repository contains the supplementary computational data (DFT calculations 
 
 ## Repository Contents
 
-The data is organized into three main directories:
+The data is organized into two main directories:
 
-- `/CONTCARS`: Contains the optimized atomic structures for the DFT calculations. These files are ready to be used with VASP or visualization software (e.g., VESTA, OVITO).
-- `/OSZICARS`: Contains the convergence data for the electronic self-consistent field (SCF) calculations, useful for checking calculation energies.
-- `/MKM_data`: Includes the input parameters for the Microkinetic Modeling simulations performed in the study.
+- `/DFT-data`: Contains the convergent data useful for checking calculation energies (OSZICAR) and contains the optimized atomic structures (CONTCAR) for the DFT calculations. These files are ready to be used with VASP or visualization software (e.g., VESTA, OVITO).
+- `/MKM-inputs`: Includes the input parameters for the Microkinetic Modeling simulations performed in the study.
 
